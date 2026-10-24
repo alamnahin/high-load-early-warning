@@ -1,5 +1,5 @@
 """
-Helpers for loading the model-ready tables in your experiments (Colab-friendly).
+Helpers for loading the model-ready tables in our experiments (Colab-friendly).
 
     from modeling_utils import load_split, scale_fit_on_train
     Xtr, ytr, Xva, yva, Xte, yte, feats = load_split("D1", thr=4, H=30)
