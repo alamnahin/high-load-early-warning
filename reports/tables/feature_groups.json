@@ -1,0 +1,81 @@
+{
+  "current_bandwidth": [
+    "bw_rx_3",
+    "bw_tx_3",
+    "bw_rx_4",
+    "bw_tx_4",
+    "bw_rx_5",
+    "bw_tx_5",
+    "bw_rx_6",
+    "bw_rx_sum",
+    "bw_tx_sum",
+    "bw_rx_share",
+    "bw_max",
+    "bw_total"
+  ],
+  "current_packets_errors": [
+    "eth_pkts_sum",
+    "eth_octets_sum",
+    "ucast_in_sum",
+    "ucast_out_sum",
+    "nucast_in_sum",
+    "discards_in_sum",
+    "discards_out_sum",
+    "discards_sum",
+    "rmon_err_sum"
+  ],
+  "current_tcp_udp": [
+    "tcpOutRsts",
+    "tcpInSegs",
+    "tcpOutSegs",
+    "tcpActiveOpens",
+    "udpInDatagrams",
+    "udpOutDatagrams"
+  ],
+  "lags_trend": [
+    "bw_max_lag1",
+    "bw_max_lag2",
+    "bw_max_lag3",
+    "bw_max_diff1",
+    "bw_max_diff3"
+  ],
+  "trailing_windows": [
+    "bw_max_mean30s",
+    "bw_max_max30s",
+    "bw_max_std30s",
+    "bw_total_mean30s",
+    "bw_total_max30s",
+    "bw_total_std30s",
+    "eth_pkts_sum_mean30s",
+    "discards_sum_mean30s",
+    "n_ge4_last30s",
+    "bw_max_mean60s",
+    "bw_max_max60s",
+    "bw_max_std60s",
+    "bw_total_mean60s",
+    "bw_total_max60s",
+    "bw_total_std60s",
+    "eth_pkts_sum_mean60s",
+    "discards_sum_mean60s",
+    "n_ge4_last60s"
+  ],
+  "burst_dynamics": [
+    "run_len_ge3",
+    "run_len_ge4",
+    "steps_since_ge3",
+    "steps_since_ge4"
+  ],
+  "network_context": [
+    "ctx_core_bw_max_mean",
+    "ctx_grpA_bw_max_mean",
+    "ctx_grpB_bw_max_mean",
+    "ctx_net_bw_max_mean",
+    "ctx_net_bw_max_max",
+    "ctx_net_n_ge4"
+  ],
+  "meta_flags": [
+    "has_if6",
+    "any_imputed",
+    "n_imputed"
+  ]
+}

@@ -1,0 +1,22 @@
+# --- Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.egg-info/
+
+# --- Data: raw inputs and generated tables are NOT versioned (size). See data/README.md
+data/raw/*
+data/clean/*
+data/model_ready/*
+!data/raw/.gitkeep
+!data/clean/.gitkeep
+!data/model_ready/.gitkeep
+
+# --- OS / editor
+.DS_Store
+.idea/
+.vscode/
+instagram_cookies.txt
